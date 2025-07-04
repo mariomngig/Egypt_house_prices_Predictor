@@ -28,15 +28,15 @@
 
 * Level column:
 
- - Converted textual levels ("Ground", "Highest", "10+") to numeric codes; dropped columns with poor-quality entries.
+   - Converted textual levels ("Ground", "Highest", "10+") to numeric codes; dropped columns with poor-quality entries.
 
 * Identified and removed outliers via:
 
- - Minimum room area (< 8 m²/bedroom).
+   - Minimum room area (< 8 m²/bedroom).
 
- - Bad bathroom-to-bedroom ratios.
+   - Bad bathroom-to-bedroom ratios.
 
- - Price extremes (< 800k or > 65 M EGP) and abnormal price_per_m² using ±1 std filter within each Type.
+   - Price extremes (< 800k or > 65 M EGP) and abnormal price_per_m² using ±1 std filter within each <b>Type</b>.
 
 * Added Log_Price target variable for normalization.
 
@@ -56,9 +56,9 @@
 
 * Split data:
 
- - Training: 80% of 16,309 samples → train/validation
+   - Training: 80% of 16,309 samples → train/validation
 
- - Test: 20%
+   - Test: 20%
 
 * Used XGBRegressor.
 
