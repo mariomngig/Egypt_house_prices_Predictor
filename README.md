@@ -1,6 +1,6 @@
 <h1>🏠 Egypt House Price Prediction</h1>
 
-<b>This project builds a robust regression model to predict house prices in Egypt using a cleaned, well-prepared dataset. We achieved ~85% R² on the test set, outperforming models from other Kaggle submissions (see comparison screenshots).</b>
+<b>This project builds a robust regression model to predict house prices in Egypt using a cleaned, well-prepared dataset. We achieved ~85% R² on the test set, outperforming models from other Kaggle submissions.</b>
 
 <h2>📁 Dataset</h2>
 
