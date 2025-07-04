@@ -8,9 +8,9 @@
 
 * Features include:
 
- - Type, Bedrooms, Bathrooms, Area, Furnished, Level, Compound, Payment_Option, Delivery_Date, Delivery_Term, City
+  - Type, Bedrooms, Bathrooms, Area, Furnished, Level, Compound, Payment_Option, Delivery_Date, Delivery_Term, City
 
- - Target: Price (in EGP, log-transformed)
+  - Target: Price (in EGP, log-transformed)
 
 <h2>🔧 Data Cleaning & Pre‑processing</h2>
 
